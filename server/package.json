@@ -32,6 +32,6 @@
     "dev": "concurrently -c 'red,blue' -n 'server,client'  \" nodemon server.js \" \" npm run client \"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run install-client && npm run build"
   },
-  "author": "Nam Tang",
+  "author": "Nam",
   "license": "ISC"
 }
