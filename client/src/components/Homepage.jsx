@@ -100,8 +100,8 @@ function Homepage(props) {
                       <td>user1password</td>
                     </tr>
                     <tr>
-                      <td>user2@email.com</td>
-                      <td>user2password</td>
+                      <td>user3@email.com</td>
+                      <td>user3password</td>
                     </tr>
                   </tbody>
                 </table>

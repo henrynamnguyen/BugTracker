@@ -24,6 +24,7 @@ class JoinTeam extends Component {
     this.handleSubmit = this.handleSubmit.bind(this);
 
     this.state = {
+      name: '',
       id: '',
       password: '',
     };
@@ -39,6 +40,7 @@ class JoinTeam extends Component {
     e.preventDefault();
 
     const team = {
+      teamName: this.state.name,
       teamId: this.state.id,
       password: this.state.password,
     };
@@ -81,7 +83,17 @@ class JoinTeam extends Component {
               <h2>Join Team</h2>
               <form onSubmit={this.handleSubmit}>
                 <div className="form-group">
-                  <label htmlFor="id">Id</label>
+                  <label htmlFor="name">Team Name</label>
+                  <br />
+                  <input
+                    type="text"
+                    name="name"
+                    value={this.state.name}
+                    onChange={this.handleChange}
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="id">Team ID</label>
                   <br />
                   <input
                     type="text"
