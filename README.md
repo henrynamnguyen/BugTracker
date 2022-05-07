@@ -20,7 +20,7 @@ appeared and view the ones that are already fixed. They can even use it like an 
 * Assigning labels to bugs
 
 ### Demo:
-* https://bug-tracker-nt.herokuapp.com/
+* https://bug-tracker-backend-henry.herokuapp.com/
 
 ### This project was made with:
 * HTML 5
